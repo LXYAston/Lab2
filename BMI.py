@@ -12,6 +12,6 @@ def calculate_bmi(height, weight):
     else:
         weightno = 0
         weightclass = "normal weight"
-    print("bmi : ",bmi, "weight class: ", weightclass, "value: ",weightno)
+    print("bmi : ",bmi, "weight class:", weightclass, "value: ",weightno)
 
 calculate_bmi(1.67, 70)
