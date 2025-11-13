@@ -14,12 +14,15 @@ def get_user_input():
 def calc_average(numlist):
     print("Sub: calc_average")
     total = sum(numlist)
+    average = total / len(numlist)
+    print("Average = " , f{average . 2f})
 
     
 
 
 def find_min_max(numlist):
     print("find_min_max")
+
 
 def sort_temperature(numlist):
     print("Sub: sort_temperature")
